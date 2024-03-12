@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullScreenImage.FullScreenImage">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/imageViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".FullScreenImage.FullScreenImage" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/TopAppBarFullscreen"
+            android:contentDescription="@string/turnBack"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/baseline_arrow_back_ios_24" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/bottomAppBar"
+            style="@style/TopAppBarFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="3dp"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="80dp">
+
+                <Button
+                    android:id="@+id/btnRestor"
+                    style="?android:attr/buttonBarNeutralButtonStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/ic_image_24"
+                    android:text="Move"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/restore_tool"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnFav"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/favoriteImage_description"
+                    android:drawableEnd="@drawable/baseline_favorite_border_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/favoriteImage_tooltip" />
+
+                <Button
+                    android:id="@+id/btnHide"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/hide_description"
+                    android:drawableEnd="@drawable/outline_hide_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/hideImage_tooltip" />
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/edit_description"
+                    android:drawableEnd="@drawable/outline_edit_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/editImage_tooltip" />
+
+                <Button
+                    android:id="@+id/btnShare"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/share_description"
+                    android:drawableEnd="@drawable/outline_share_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/shareImage_tooltip" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/delete_description"
+                    android:drawableEnd="@drawable/baseline_delete_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/deleteImage_tooltip" />
+
+                <Button
+                    android:id="@+id/btnHashtag"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/addHashtag_description"
+                    android:drawableEnd="@drawable/ic_hashtag_24"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:tooltipText="@string/addHashtag_tooltip" />
+
+                <Button
+                    android:id="@+id/btnMore"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/more_description"
+                    android:drawableEnd="@drawable/baseline_menu_24"
+                    android:drawableTint="@color/black"
+                    android:textAllCaps="false"
+                    android:tooltipText="Menu" />
+
+
+            </LinearLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

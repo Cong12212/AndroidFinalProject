@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_use_as"
+        android:title="@string/useAs"
+        android:orderInCategory="0"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_print"
+        android:orderInCategory="1"
+        android:title="@string/print"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/see_infor"
+        android:title="@string/seeInfor"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_to_album"
+        android:title="@string/addToAlbum"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_from_album"
+        android:title="@string/removeFromAlbum"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:visible="false"/>
+</menu>

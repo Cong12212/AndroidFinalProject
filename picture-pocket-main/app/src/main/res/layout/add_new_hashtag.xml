@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/HashtagViewText"
+            android:fontFamily="monospace"
+            android:textSize="18dp"
+            android:text="Hashtag hiện tại:"/>
+
+    <com.greenfrvr.hashtagview.HashtagView
+        android:id="@+id/Hashtag"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        app:dynamicMode="true"
+        app:selectionMode="false"
+
+        app:tagDrawableLeft="@drawable/ic_close_24"
+        app:tagBackground="#E5E5E5"
+        app:tagPaddingBottom="8dp"
+        app:tagPaddingLeft="6dp"
+        app:tagPaddingRight="6dp"
+        app:tagPaddingTop="8dp"
+        app:tagTextColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/editTextHashtag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thêm Hashtag..."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Thoát"/>
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Thêm"/>
+
+    </LinearLayout>
+</LinearLayout>

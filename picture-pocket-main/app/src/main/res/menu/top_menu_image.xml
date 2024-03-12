@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/choose_all"
+        android:icon="@drawable/baseline_checklist_rtl_24"
+        android:contentDescription="@string/choose_all_image"
+        android:title="@string/choose_all_image"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/clear_choose"
+        android:icon="@drawable/ic_close_24"
+        android:contentDescription="@string/clear_choose_image"
+        android:title="@string/clear_choose_image"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/img_camera"
+        android:icon="@drawable/baseline_camera_enhance_24"
+        android:title="@string/camera_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_images"
+        android:icon="@drawable/ic_bin_24"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/move_images"
+        android:title="@string/move"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create_GIF"
+        android:title="@string/create_gif"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/slideShow"
+        android:title="Slideshow"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create_PDF"
+        android:title="Tạo file pdf"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/img_more"
+        android:contentDescription="icon_menu_description"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="More"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/img_grid"
+                android:title="Chọn dạng lưới">
+                <menu>
+                    <item
+                        android:id="@+id/img_grid_col_2"
+                        android:title="Dạng lưới 2" />
+                    <item
+                        android:id="@+id/img_grid_col_3"
+                        android:title="@string/gridCol3" />
+                    <item
+                        android:id="@+id/img_grid_col_4"
+                        android:title="@string/gridCol4" />
+                    <item
+                        android:id="@+id/img_grid_col_5"
+                        android:title="@string/gridCol5" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/img_view_mode"
+                android:title="@string/viewMode">
+                <menu>
+                    <item
+                        android:id="@+id/img_view_mode_normal"
+                        android:title="@string/viewByASC" />
+                    <item
+                        android:id="@+id/img_view_mode_convert"
+                        android:title="@string/viewByDESC" />
+                    <item
+                        android:id="@+id/img_view_mode_day"
+                        android:title="@string/viewByDay" />
+                    <item
+                        android:id="@+id/img_view_mode_month"
+                        android:title="@string/viewByMonth" />
+                    <item
+                        android:id="@+id/img_view_mode_year"
+                        android:title="@string/viewByYear" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/slideShow_"
+                android:title="Slideshow" />
+<!--            <item-->
+<!--                android:id="@+id/img_setting"-->
+<!--                android:title="setting_title" />-->
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="nav_image_title">Ảnh</string>
+    <string name="nav_album_title">Album</string>
+    <string name="nav_find_title">Tìm kiếm</string>
+    <string name="nav_bin_title">Thùng rác</string>
+    <string name="image_empty">Không tìm thấy ảnh</string>
+    <string name="image_manage_title">Quản lí hình ảnh</string>
+    <string name="clear_choose_image">Bỏ chọn</string>
+    <string name="bin_title">Thùng rác</string>
+    <string name="camera_title">Camera</string>
+    <string name="delete">Delete</string>
+    <string name="create_gif">Tạo ảnh gif</string>
+    <string name="move">Di chuyển</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_description">Edit image</string>
+    <string name="delete_description">Delete image\n</string>
+    <string name="addHashtag_description">add hashtag for image</string>
+    <string name="more_description">More</string>
+    <string name="share_description">Share image</string>
+    <string name="hide_description">add to secret</string>
+    <string name="turnBack">Turn back</string>
+    <string name="addHashtag_tooltip">Thêm hashtag</string>
+    <string name="deleteImage_tooltip">Xóa ảnh</string>
+    <string name="hideImage_tooltip">Thêm vào mục riêng tư</string>
+    <string name="editImage_tooltip">Sửa ảnh</string>
+    <string name="shareImage_tooltip">Chia sẻ hình ảnh</string>
+    <string name="favoriteImage_tooltip">Thích ảnh</string>
+    <string name="Menu">Menu\n</string>
+    <string name="favoriteImage_description">Thích ảnh</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="removeSuccess">Xóa ảnh thành công</string>
+    <string name="hintSuccess">Ẩn ảnh thành công</string>
+    <string name="CANCLE">Hủy</string>
+    <string name="OK">Ok</string>
+    <string name="choose_all_image">Chon tất cả hình</string>
+    <string name="ConverPDF">Convert to PDF</string>
+    <string name="manageAlbum">Quản lí ảnh</string>
+    <string name="addFolder">Thêm album</string>
+    <string name="editFolder">Sửa album</string>
+    <string name="search_hint">Nhập nội dung tìm kiếm...</string>
+    <string name="button_width">24dp</string>
+    <string name="viewByYear">Xem theo năm</string>
+    <string name="viewByMonth">Xem theo tháng</string>
+    <string name="viewByDay">Xem theo ngày</string>
+    <string name="viewByASC">Xem ảnh mới nhất</string>
+    <string name="viewByDESC">Xem ảnh lâu nhất</string>
+    <string name="viewMode">Chế độ xem</string>
+    <string name="gridCol5">Dạng lưới 5</string>
+    <string name="gridCol4">Dạng lưới 4</string>
+    <string name="gridCol3">Dạng lưới 3</string>
+    <string name="addImageToAlbum">Thêm ảnh mới vào album</string>
+    <string name="saveAlbumName">Lưu tên Album</string>
+    <string name="useAs">Dùng như...</string>
+    <string name="print">In</string>
+    <string name="seeInfor">Chi tiết</string>
+    <string name="addToAlbum">Thêm vào album</string>
+    <string name="print_error">Không thể in hình ảnh</string>
+    <string name="restore_tool">Restore/Move</string>
+    <string name="removeFromAlbum">Xoá khỏi album</string>
+
+
+</resources>

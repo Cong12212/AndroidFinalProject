@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/image_option"
+        android:icon="@drawable/ic_image_24"
+        android:title="@string/nav_image_title" />
+    <item
+        android:id="@+id/album_option"
+        android:icon="@drawable/ic_photo_library_24"
+        android:title="@string/nav_album_title" />
+    <item
+        android:id="@+id/search_option"
+        android:icon="@drawable/ic_search_24"
+        android:title="@string/nav_find_title" />
+</menu>

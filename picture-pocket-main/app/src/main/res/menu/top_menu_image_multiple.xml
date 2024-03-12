@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/img_camera"
+        android:icon="@drawable/baseline_camera_enhance_24"
+        android:title="@string/camera_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete_images"
+        android:icon="@drawable/ic_bin_24"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/move_images"
+        android:title="@string/move"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create_GIF"
+        android:title="@string/create_gif"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/slideShow"
+        android:title="slideshow"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create_PDF"
+        android:title="create_pdf"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/img_more"
+        android:contentDescription="icon_menu_description"
+        android:icon="@drawable/ic_bin_24"
+        android:title="more_title"
+        app:showAsAction="ifRoom">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/img_choose"-->
+<!--                android:title="choose_title" />-->
+            <item
+                android:id="@+id/img_grid"
+                android:title="grid_columns">
+                <menu>
+                    <item
+                        android:id="@+id/img_grid_col_2"
+                        android:title="grid_column_2" />
+                    <item
+                        android:id="@+id/img_grid_col_3"
+                        android:title="grid_column_3" />
+                    <item
+                        android:id="@+id/img_grid_col_4"
+                        android:title="grid_column_4" />
+                    <item
+                        android:id="@+id/img_grid_col_5"
+                        android:title="grid_column_5" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/img_view_mode"
+                android:title="view_mode">
+                <menu>
+                    <item
+                        android:id="@+id/img_view_mode_normal"
+                        android:title="view_mode_normal" />
+                    <item
+                        android:id="@+id/img_view_mode_convert"
+                        android:title="view_mode_convert" />
+                    <item
+                        android:id="@+id/img_view_mode_day"
+                        android:title="view_mode_day" />
+                    <item
+                        android:id="@+id/img_view_mode_month"
+                        android:title="view_mode_month" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/slideShow_"
+                android:title="slideshow" />
+<!--            <item-->
+<!--                android:id="@+id/img_setting"-->
+<!--                android:title="setting_title" />-->
+        </menu>
+    </item>
+
+</menu>

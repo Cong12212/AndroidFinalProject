@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/add_new_image"
+        android:icon="@drawable/baseline_add_a_photo_24"
+        android:contentDescription="@string/addImageToAlbum"
+        android:title="@string/addImageToAlbum"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/choose_all_in_album"
+        android:icon="@drawable/baseline_checklist_rtl_24"
+        android:contentDescription="@string/choose_all_image"
+        android:title="@string/choose_all_image"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/clear_choose_in_album"
+        android:icon="@drawable/ic_close_24"
+        android:contentDescription="@string/clear_choose_image"
+        android:title="@string/clear_choose_image"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_in_album"
+        android:icon="@drawable/baseline_delete_24"
+        android:contentDescription="@string/clear_choose_image"
+        android:title="@string/clear_choose_image"
+        app:showAsAction="ifRoom" />
+</menu>
